@@ -1,0 +1,12 @@
+body{
+	background-image: url("../images/theCity.jpg");
+	/*color: grey;*/
+	
+}
+
+.container {
+	background-color: silver;
+	width: 800px;
+	/*padding-top: 100px; */
+	margin-top: 50px;
+}
