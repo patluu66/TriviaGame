@@ -2,7 +2,7 @@ var number = 30;
 var intervalLoop;
 var correctAnswers = 0;
 var incorrectAnswers = 0;
-var numberQuestionLeft = 4;
+
 var questionsChoices = 
 	[{	q1: "1. Who is the best point guard in the NBA?", 
 		c1: "Stephen Curry", 
@@ -24,6 +24,10 @@ var questionsChoices =
 		c2: "Indiana", 
 		c3: "Boston", 
 		c4: "Utah" }];
+
+// console.log(questionsChoices.length);
+var numberQuestionLeft = questionsChoices.length;
+
 
 var answer = { q1: "Stephen Curry", 
 				q2: "LeBron James",
